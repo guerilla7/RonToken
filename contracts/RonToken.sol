@@ -9,6 +9,7 @@ contract RonToken is StandardToken {
   uint public INITIAL_SUPPLY = 12000;
 
   function RonToken() public {
-    
+    totalSupply_ = INITIAL_SUPPLY;
+    balances[msg.sender] = INITIAL_SUPPLY;
   }
 }
