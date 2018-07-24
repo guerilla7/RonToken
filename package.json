@@ -16,6 +16,7 @@
     "lite-server": "^2.3.0"
   },
   "dependencies": {
+    "solium": "^1.1.8",
     "zeppelin-solidity": "^1.8.0"
   }
 }
