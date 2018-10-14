@@ -8,7 +8,9 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +19,8 @@
   },
   "dependencies": {
     "solium": "^1.1.8",
-    "zeppelin-solidity": "^1.8.0"
-  }
+    "zeppelin-solidity": "^1.8.0",
+    "snyk": "^1.103.4"
+  },
+  "snyk": true
 }
