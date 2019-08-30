@@ -18,9 +18,15 @@
     "lite-server": "^2.3.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "solium": "^1.1.8",
     "zeppelin-solidity": "^1.8.0",
     "snyk": "^1.103.4"
   },
   "snyk": true
+=======
+    "solium": "^1.2.4",
+    "zeppelin-solidity": "^1.8.0"
+  }
+>>>>>>> master
 }
